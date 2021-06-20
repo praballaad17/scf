@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SCA</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css" />
+    <script defer src="/js/script.js"></script>
+  </head>
+  <body>
+    <%- include('header.ejs') %>
+
+    <main>
+      <section class="about-hero">
+        <div class="parallex-box">
+          <img
+            id="parallex-box"
+            class="parallex-box__img"
+            src="/img/cotton-1.jpg"
+            alt="cotton"
+          />
+        </div>
+      </section>
+
+      <section class="section-parallex">
+        <div class="parallex-box">
+          <video
+            id="parallex-box"
+            class="parallex-box__img"
+            autoplay
+            muted
+            loop
+          >
+            <source src="/img/flower.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+
+      <section class="section-book">
+        <div class="book">
+          <div class="book__form">
+            <form action="#" class="form">
+              <div class="u-margin-bottom-medium">
+                <h2 class="heading-secondary">Join The SCF Platform</h2>
+              </div>
+
+              <div class="form__group">
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Full Name"
+                  id="name"
+                  required
+                />
+                <label for="name" class="form__label">Full Name</label>
+              </div>
+
+              <div class="form__group">
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Company / Organisation"
+                  id="company"
+                  required
+                />
+                <label for="company" class="form__label"
+                  >Company / Organisation</label
+                >
+              </div>
+
+              <div class="form__group">
+                <input
+                  type="email"
+                  class="form__input"
+                  placeholder="Email"
+                  id="email"
+                  required
+                />
+                <label for="email" class="form__label">Email</label>
+              </div>
+
+              <div class="form__group">
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Role"
+                  id="role"
+                  required
+                />
+                <label for="role" class="form__label">Role</label>
+              </div>
+
+              <div class="form__group">
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Subject"
+                  id="subject"
+                  required
+                />
+                <label for="subject" class="form__label">Subject</label>
+              </div>
+
+              <div class="form__group">
+                <input
+                  type="text"
+                  class="form__textarea"
+                  placeholder="Message"
+                  id="message"
+                  required
+                />
+                <label for="message" class="form__label">Message</label>
+              </div>
+
+              <p>
+                Where can we find you online?<br /><small
+                  >Please include current website or social media handle.</small
+                >
+              </p>
+              <div class="form__group">
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Online Presence"
+                  id="social"
+                  required
+                />
+                <label for="social" class="form__label">Online Presence</label>
+              </div>
+
+              <div class="form__group">
+                <button class="btn btn--back">Next step</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <%- include('footer.ejs') %>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+  </body>
+  <script>
+    let parImg = document.getElementById("parallex-box");
+
+    window.addEventListener("scroll", function () {
+      var value = window.scrollY;
+
+      parImg.style.bottom = -value * 0.3 + "px";
+    });
+  </script>
+</html>

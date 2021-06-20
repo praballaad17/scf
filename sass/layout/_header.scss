@@ -1,0 +1,46 @@
+.header {
+  position: relative;
+  height: 12vh;
+  background-color: $color-white;
+  color: $color-white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo-box {
+  color: $color-primary;
+  margin-left: 5rem;
+}
+.header__logo {
+  height: 3.5rem;
+}
+.header__text-box {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nav {
+  margin-right: 5rem;
+  &-list {
+    display: flex;
+    list-style: none;
+  }
+
+  &-item {
+    color: $color-primary;
+    a {
+      color: currentColor;
+      font-size: 1.7rem;
+      text-decoration: none;
+
+      margin: 0 1.5rem;
+    }
+
+    :hover {
+      color: $color-primary-light;
+    }
+  }
+}
