@@ -43,7 +43,7 @@ app.use(express.static(__dirname + "/assets"));
 // });
 
 // app.use('/', indexRouter)
-const port = 3000;
+const port = 3001
 app.listen(port, () => {
   console.log(`connected to port ${port}`);
 });

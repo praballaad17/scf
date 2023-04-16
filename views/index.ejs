@@ -1,196 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SCA</title>
 
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="/css/owl.theme.default.min.css" />
-    <script defer src="/js/script.js"></script>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SCA</title>
+
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="/css/owl.theme.default.min.css" />
+  <script defer src="/js/script.js"></script>
+</head>
+
+<body>
+  <%- include('partials/startani') %>
     <%- include('header.ejs') %>
-    <main class="main">
-      <section class="section-hero">
-        <div class="hero-slider">
-          <div class="hero-slider--mySlides hero-slider--slide1">
-            <div class="hero-slider--content">
-              <h2 class="heading-primary heading-primary--main">Organic</h2>
-              <h3 class="heading-primary heading-primary--sub">& Nature</h3>
-              <p class="slider-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia minus velit dolores esse neque sapiente ratione
-                voluptate repudiandae cum laborum dolor culpa aut corporis
-              </p>
-              <a class="btn btn--back btn--animated u-margin-top-medium"
-                >Read More</a
-              >
+      <main class="main">
+        <section class="section-hero">
+          <div class="hero-slider">
+            <div class="hero-slider--mySlides hero-slider--slide1">
+              <div class="hero-slider--content">
+                <h2 class="heading-primary heading-primary--main">Organic</h2>
+                <h3 class="heading-primary heading-primary--sub">& Nature</h3>
+                <p class="slider-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia minus velit dolores esse neque sapiente ratione
+                  voluptate repudiandae cum laborum dolor culpa aut corporis
+                </p>
+                <a class="btn btn--back btn--animated u-margin-top-medium">Read More</a>
+              </div>
+              <img src="https://ninetheme.com/themes/agro/wp-content/uploads/2019/02/img_1.jpg" />
             </div>
-            <img
-              src="https://ninetheme.com/themes/agro/wp-content/uploads/2019/02/img_1.jpg"
-            />
-          </div>
-          <div class="hero-slider--mySlides hero-slider--slide2">
-            <div class="hero-slider--content">
-              <h2 class="heading-primary heading-primary--main">Organic</h2>
-              <h3 class="heading-primary heading-primary--sub">& Nature</h3>
-              <p class="slider-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia minus velit dolores esse neque sapiente ratione
-                voluptate repudiandae cum laborum dolor culpa aut corporis
-              </p>
-              <a class="btn btn--back btn--animated u-margin-top-medium"
-                >Read More</a
-              >
+            <div class="hero-slider--mySlides hero-slider--slide2">
+              <div class="hero-slider--content">
+                <h2 class="heading-primary heading-primary--main">Organic</h2>
+                <h3 class="heading-primary heading-primary--sub">& Nature</h3>
+                <p class="slider-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia minus velit dolores esse neque sapiente ratione
+                  voluptate repudiandae cum laborum dolor culpa aut corporis
+                </p>
+                <a class="btn btn--back btn--animated u-margin-top-medium">Read More</a>
+              </div>
+              <img src="https://ninetheme.com/themes/agro/wp-content/uploads/2019/02/img_2.jpg" />
             </div>
-            <img
-              src="https://ninetheme.com/themes/agro/wp-content/uploads/2019/02/img_2.jpg"
-            />
-          </div>
-          <div class="hero-slider--mySlides hero-slider--slide3">
-            <div class="hero-slider--content">
-              <h2 class="heading-primary heading-primary--main">Organic</h2>
-              <h3 class="heading-primary heading-primary--sub">& Nature</h3>
-              <p class="slider-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia minus velit dolores esse neque sapiente ratione
-                voluptate repudiandae cum laborum dolor culpa aut corporis
-              </p>
-              <a class="btn btn--back btn--animated u-margin-top-medium"
-                >Read More</a
-              >
+            <div class="hero-slider--mySlides hero-slider--slide3">
+              <div class="hero-slider--content">
+                <h2 class="heading-primary heading-primary--main">Organic</h2>
+                <h3 class="heading-primary heading-primary--sub">& Nature</h3>
+                <p class="slider-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Mollitia minus velit dolores esse neque sapiente ratione
+                  voluptate repudiandae cum laborum dolor culpa aut corporis
+                </p>
+                <a class="btn btn--back btn--animated u-margin-top-medium">Read More</a>
+              </div>
+              <img src="https://ninetheme.com/themes/agro/wp-content/uploads/2019/02/img_3.jpg" />
             </div>
-            <img
-              src="https://ninetheme.com/themes/agro/wp-content/uploads/2019/02/img_3.jpg"
-            />
-          </div>
-          <div class="hero-slider--navi">
-            <div class="hero-slider--navi-left" onclick="plusDivs(-1)">
-              &#10094;
+            <div class="hero-slider--navi">
+              <div class="hero-slider--navi-left" onclick="plusDivs(-1)">
+                &#10094;
+              </div>
+              <div class="hero-slider--navi-right" onclick="plusDivs(1)">
+                &#10095;
+              </div>
             </div>
-            <div class="hero-slider--navi-right" onclick="plusDivs(1)">
-              &#10095;
+            <div class="hero-slider--click-nav">
+              <a class="hero-slider--click-nav-circle demo" onclick="currentDiv(1)"><span></span></a>
+              <a class="hero-slider--click-nav-circle demo" onclick="currentDiv(2)">
+                <span></span></a>
+              <a class="hero-slider--click-nav-circle demo" onclick="currentDiv(3)">
+                <span></span></a>
             </div>
           </div>
-          <div class="hero-slider--click-nav">
-            <a
-              class="hero-slider--click-nav-circle demo"
-              onclick="currentDiv(1)"
-              ><span></span
-            ></a>
-            <a
-              class="hero-slider--click-nav-circle demo"
-              onclick="currentDiv(2)"
-            >
-              <span></span
-            ></a>
-            <a
-              class="hero-slider--click-nav-circle demo"
-              onclick="currentDiv(3)"
-            >
-              <span></span
-            ></a>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-about">
-        <h2 class="heading-secondary u-margin-bottom-medium">Who We Are</h2>
-        <p>
-          We are the only multi-stakeholder organisation fully dedicated to
-          organic cotton. As a global platform, we’re committed to bringing
-          integrity, supply security and measurable social and environmental
-          impact to organic cotton.
-        </p>
-        <a href="who-we-are" class="btn btn--back u-margin-top-small"
-          >Learn More</a
-        >
-      </section>
-
-      <section class="section-parallex">
-        <div class="parallex-box">
-          <img
-            id="parallex-box"
-            class="parallex-box__img"
-            src="/img/cotton-1.jpg"
-            alt="cotton"
-          />
-        </div>
-        <!-- <section class="text" style="--bg: #c8c8bc">
-          <h1>Armenian highlands</h1>
         </section>
-        <div class="parallex-box">
-          <img class="parallex-box__img" src="/img/cotton-1.jpg" alt="cotton" /> 
-        </div> -->
-      </section>
 
-      <section class="section-about">
-        <h2 class="heading-secondary u-margin-bottom-medium">Who We Do</h2>
-        <p>
-          We are the only multi-stakeholder organisation fully dedicated to
-          organic cotton. As a global platform, we’re committed to bringing
-          integrity, supply security and measurable social and environmental
-          impact to organic cotton.
-        </p>
-        <a href="what-we-do" class="btn btn--back u-margin-top-small"
-          >Learn More</a
-        >
-      </section>
+        <section class="section-about">
+          <h2 class="heading-secondary u-margin-bottom-medium">Who We Are</h2>
+          <p>
+            We are the only multi-stakeholder organisation fully dedicated to
+            organic cotton. As a global platform, we’re committed to bringing
+            integrity, supply security and measurable social and environmental
+            impact to organic cotton.
+          </p>
+          <a href="who-we-are" class="btn btn--back u-margin-top-small">Learn More</a>
+        </section>
 
-      <section class="section-partners">
-        <h2 class="heading-primary heading-primary--sub u-margin-bottom-medium">
-          The SCA Platform
-        </h2>
-        <div class="owl-carousel owl-theme">
-          <div class="owl-corsel__item item"><h4>1</h4></div>
-          <div class="owl-corsel__item item"><h4>2</h4></div>
-          <div class="owl-corsel__item item"><h4>3</h4></div>
-          <div class="owl-corsel__item item"><h4>4</h4></div>
-          <div class="owl-corsel__item item"><h4>5</h4></div>
-          <div class="owl-corsel__item item"><h4>6</h4></div>
-          <div class="owl-corsel__item item"><h4>7</h4></div>
-          <div class="owl-corsel__item item"><h4>8</h4></div>
-          <div class="owl-corsel__item item"><h4>9</h4></div>
-          <div class="owl-corsel__item item"><h4>10</h4></div>
-          <div class="owl-corsel__item item"><h4>11</h4></div>
-          <div class="owl-corsel__item item"><h4>12</h4></div>
-        </div>
-      </section>
+        <section class="section-parallex">
 
-      <section class="section-join">
-        <div class="join__box-2">
-          <img
-            src="/img/farmer-gathering-cotton-plantation (1).jpg"
-            alt="img-join"
-          />
-          <div class="join__box-2--content">
-            <h2 class="heading-secondary u-margin-bottom-medium">
-              CHANGE IS POSSIBLE.
-            </h2>
-            <p>Time Is now to act.</p>
-            <a href="what-we-do" class="btn btn--back u-margin-top-small"
-              >Join Now</a
-            >
+        </section>
+
+        <section class="section-about">
+          <h2 class="heading-secondary u-margin-bottom-medium">Who We Do</h2>
+          <p>
+            We are the only multi-stakeholder organisation fully dedicated to
+            organic cotton. As a global platform, we’re committed to bringing
+            integrity, supply security and measurable social and environmental
+            impact to organic cotton.
+          </p>
+          <a href="what-we-do" class="btn btn--back u-margin-top-small">Learn More</a>
+        </section>
+
+        <section class="section-partners">
+          <h2 class="heading-primary heading-primary--sub u-margin-bottom-medium">
+            The SCA Platform
+          </h2>
+          <div class="owl-carousel owl-theme">
+            <div class="owl-corsel__item item">
+              <h4>1</h4>
+            </div>
+            <div class="owl-corsel__item item">
+              <h4>2</h4>
+            </div>
+            <div class="owl-corsel__item item">
+              <h4>3</h4>
+            </div>
+            <div class="owl-corsel__item item">
+              <h4>4</h4>
+            </div>
+            <div class="owl-corsel__item item">
+              <h4>5</h4>
+            </div>
+            <div class="owl-corsel__item item">
+              <h4>6</h4>
+            </div>
+            <div class="owl-corsel__item item">
+              <h4>7</h4>
+            </div>
+            <div class="owl-corsel__item item">
+              <h4>8</h4>
+            </div>
+            <div class="owl-corsel__item item">
+              <h4>9</h4>
+            </div>
+            <div class="owl-corsel__item item">
+              <h4>10</h4>
+            </div>
+            <div class="owl-corsel__item item">
+              <h4>11</h4>
+            </div>
+            <div class="owl-corsel__item item">
+              <h4>12</h4>
+            </div>
           </div>
-        </div>
-      </section>
-    </main>
+        </section>
 
-    <%- include('footer.ejs') %>
+        <section class="section-join">
+          <div class="join__box-2">
+            <img src="/img/farmer-gathering-cotton-plantation (1).jpg" alt="img-join" />
+            <div class="join__box-2--content">
+              <h2 class="heading-secondary u-margin-bottom-medium">
+                CHANGE IS POSSIBLE.
+              </h2>
+              <p>Time Is now to act.</p>
+              <a href="what-we-do" class="btn btn--back u-margin-top-small">Join Now</a>
+            </div>
+          </div>
+        </section>
+      </main>
 
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/owl.carousel.min.js"></script>
-  </body>
-  <script>
-    let parImg = document.getElementById("parallex-box");
+      <%- include('footer.ejs') %>
 
-    window.addEventListener("scroll", function () {
-      var value = window.scrollY;
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/owl.carousel.min.js"></script>
+</body>
+<script>
+  let parImg = document.getElementById("parallex-box");
 
-      parImg.style.bottom = -value * 0.3 + "px";
-    });
-  </script>
+  window.addEventListener("scroll", function () {
+    var value = window.scrollY;
+
+    parImg.style.bottom = -value * 0.3 + "px";
+  });
+</script>
+
 </html>
